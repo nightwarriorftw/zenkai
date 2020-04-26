@@ -11,3 +11,9 @@ export const decrement = (val) => {
         payload: val,
     }
 };
+
+export const logged = () => {
+    return {
+        type: 'SIGN_IN'
+    };
+};
